@@ -1,0 +1,104 @@
+.small-text{
+   font-size: 14px;
+   font-weight: bold;
+}
+.right-aligned{
+  text-align: right;
+}
+.left-aligned{
+  text-align: left;
+}
+.table-background{
+  background-color:#F9F9F9;
+}
+
+.th-right-margin{
+  margin-left: 25px;
+}
+
+.white-border{
+  background-color: white;
+   padding: 2px 2px 2px 2px;
+}
+.small-text-light-font{
+  font-size: 12px;
+  font-weight:normal;
+}
+
+div.square {
+  border-radius: 5px;
+  border: solid 2px orange;
+  width: 35px;
+  height: 20px;
+  color: orange;
+  margin-right: 15px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.aligned-center{
+  font-size: 9px;
+  margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+.justify-vertical{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:stretch;
+}
+.justify-horizontal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bold-lightgrey{
+  color: grey;
+  font-size: 14px;
+  font-weight: bold;
+}
+.bold-label{
+  font-size: 14px;
+  font-weight:bold;}
+
+  .arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid green;
+}
+
+.arrow-down {
+width: 0;
+height: 0;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-top: 5px solid red;
+}
+
+
+.negativeTh{
+  background-color: red;
+}
+.positiveTh{
+  background-color: green;
+}
+#negativeProgress{
+  height:3px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #E4E4E4;
+}
+
+#positiveProgress{
+  height:3px;
+  background-color: green;
+  display: flex;
+  justify-content: flex-start;
+}
