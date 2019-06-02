@@ -1,8 +1,8 @@
 import React, { PureComponent } from "react";
 import Header from "./Header";
-import Statistics from "./StatisticsList";
-import PieChart from "./PieChartSample";
-import statsData from "./stats.json";
+import Statistics from "./component/StatisticsList";
+import PieChart from "./component/PieChartSample";
+import statsData from "./icons/stats.json";
 
 class App extends PureComponent {
 render() {
@@ -11,10 +11,9 @@ render() {
   <Header />
   <div style={{display: 'flex'}}>
     <Statistics {...statsData}/>
-    <PieChart  mfValue={(statsData.filter(t => t.type == 'MF')).length} eqValue={(statsData.filter(t => t.type == 'EQ')).length}/>
+    <PieChart  mfValue={(statsData.filter(t => t.type == 'MF')).length} 
+    eqValue={(statsData.filter(t => t.type == 'EQ')).length}/>
   </div>
-
-
 </div>
 ); } }
 export default App;

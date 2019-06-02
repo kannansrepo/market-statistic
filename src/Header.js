@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
-import "./Header.css";
-import "./logo.svg"
+import "./style//Header.css";
+import "../logo.svg"
 
 class Header extends PureComponent {
   render() {

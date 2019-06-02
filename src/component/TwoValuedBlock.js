@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import "./general.css"
+import "../style/general.css"
 import UnrealizedProgressBar from './UnrealizedProgressBar';
 class TwoValuedBlock extends PureComponent{
   render(){

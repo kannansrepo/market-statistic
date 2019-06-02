@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react"
-import "./general.css"
- import hamburger from "./hamburger.svg"
-  import vendorImage from "./vendorLogo1.png"
+import "../style/general.css"
+ import hamburger from "../icons/hamburger.svg"
+  import vendorImage from "../icons/vendorLogo1.png"
    class VendorInfoBlock extends PureComponent{ render(){ return (
 <div className="white-border">
   <table className="table-background">

@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react";
-import "./general.css"
-import logo from './logo.svg'
+import "../style/general.css"
 
 class TwoButtonBlock extends PureComponent{
   render(){

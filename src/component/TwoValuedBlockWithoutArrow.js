@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
-import "./general.css"
-import { Line} from 'rc-progress';
+import "../style/general.css"
+import { Line} from 'rc-progress'
 class TwoValuedBlockWithoutArrow extends PureComponent{
   render(){
     const percentage = parseFloat(this.props.value[1]);

@@ -1,8 +1,8 @@
 import React, { PureComponent } from "react"
-import "./general.css"
-import quantity from "./quantity.svg"
-import money from "./money.svg"
-import avgCost from "./avgCost.svg"
+import "../style/general.css"
+import quantity from "../icons/quantity.svg"
+import money from "../icons/money.svg"
+import avgCost from "../icons/avgCost.svg"
 
 class ThreeValuedBlock extends PureComponent{ render(){ return (
 <div className="white-border">

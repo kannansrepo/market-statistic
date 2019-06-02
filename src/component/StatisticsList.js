@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import statsData from "./stats.json";
+import statsData from "../icons/stats.json"
 import Statistics from "./Statistics";
 
 class StatisticsList extends PureComponent{
